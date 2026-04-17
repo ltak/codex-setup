@@ -1,13 +1,17 @@
-# Global Codex config
-# Keep this file conservative and portable.
-# Put durable behavior in ~/.codex/AGENTS.md and user-level skills.
-# Keep per-repo trust and other repo-specific settings scoped to the relevant project blocks.
-
-[plugins."github@openai-curated"]
-enabled = true
+approval_policy = "never"
+sandbox_mode = "workspace-write"
 
 [plugins."notion@openai-curated"]
 enabled = true
 
 [projects."/Users/lucas/Documents/Easier"]
 trust_level = "trusted"
+
+[apps.connector_76869538009648d5b282a4bb21c3d157.tools.github_reply_to_review_comment]
+approval_mode = "approve"
+
+[apps.connector_76869538009648d5b282a4bb21c3d157.tools.github_update_file]
+approval_mode = "approve"
+
+[sandbox_workspace_write]
+network_access = true

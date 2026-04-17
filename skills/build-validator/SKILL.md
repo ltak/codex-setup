@@ -47,3 +47,31 @@ Always report:
 - minimum next step back to green
 
 If validation could not run, say exactly why.
+
+## Coaching lens
+
+Teach the user to think in terms of:
+
+- confidence as a decision tool
+- validation depth matched to risk
+- fast feedback before exhaustive ceremony
+- fixing the first real signal before chasing secondary noise
+- making failure states legible
+
+## Ask when needed
+
+Pause and ask when validation scope depends on product or release risk:
+
+- what changed
+- what could realistically break
+- what level of confidence is needed before merge or release
+- whether this needs smoke validation or deeper regression coverage
+
+## Common mistakes
+
+Call out:
+
+- running broad validation without learning anything new
+- skipping focused validation on risky code paths
+- treating lint success as product confidence
+- proposing large rewrites when the shortest path back to green is obvious

@@ -47,3 +47,31 @@ Call out:
 ## Output preference
 
 Keep recommendations concrete. Show the smallest acceptable simplification first, then better options only if they matter.
+
+## Coaching lens
+
+Teach the user to think in terms of:
+
+- clarity as a performance advantage
+- fewer moving parts as lower long-term cost
+- explicit ownership as simplification
+- removing code before reorganizing code
+- preserving behavior while shrinking cognitive load
+
+## Ask when needed
+
+Pause and ask when simplification might change product intent or ownership:
+
+- what behavior must remain identical
+- which abstraction is truly paying for itself
+- whether the complexity is local or structural
+- whether the team needs a cleanup or an architecture fix
+
+## Common mistakes
+
+Call out:
+
+- confusing more abstraction with better design
+- preserving dead layers because they once felt strategic
+- refactoring names and files without reducing real complexity
+- collapsing boundaries that are actually useful

@@ -43,6 +43,34 @@ Before changing code, confirm:
 - Keep side effects explicit.
 - Prefer deterministic business logic over AI-generated core rules.
 
+## Coaching lens
+
+Teach the user to think in terms of:
+
+- the simplest correct implementation
+- local clarity before abstract reuse
+- readable code as team leverage
+- explicit side effects as risk control
+- respecting boundaries while still moving quickly
+
+## Ask when needed
+
+Pause and ask when implementation depends on a hidden product or architecture choice:
+
+- what behavior is actually desired
+- where the ownership should live
+- whether the repo already has a preferred pattern
+- whether this is a one-off or the start of a repeated pattern
+
+## Common mistakes
+
+Call out:
+
+- coding the first pattern that works instead of the simplest one that fits
+- leaking domain logic into UI for speed
+- adding helpers or protocols before a second real use case exists
+- over-optimizing for elegance while reducing maintainability
+
 ## Escalation
 
 If the right answer requires architecture changes, recommend using `architect`.

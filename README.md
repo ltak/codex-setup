@@ -11,6 +11,8 @@ This repository uses the live `~/.codex` directory as the local git working tree
 - `skills/coder/SKILL.md`
 - `skills/code-simplifier/SKILL.md`
 - `skills/build-validator/SKILL.md`
+- `skills/designer/SKILL.md`
+- `skills/founder-thinking/SKILL.md`
 - `skills/tester/SKILL.md`
 - `skills/pr-helper/SKILL.md`
 
